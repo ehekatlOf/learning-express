@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/ehekatlOf/learning-express/issues"
   },
-  "homepage": "https://github.com/ehekatlOf/learning-express#readme"
+  "homepage": "https://github.com/ehekatlOf/learning-express#readme",
+  "dependencies": {
+    "express": "^4.14.0"
+  }
 }
