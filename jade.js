@@ -3,8 +3,6 @@ var path = require('path');
 
 var app = express();
 
-app.use(express.static(process.argv[3], path.join(__dirname,'public')));
-
-console.log(process.argv[3]);
+app.set('views', path.join(__dirname, 'templates'));
 
 app.listen(process.argv[2]);
